@@ -9,4 +9,4 @@ sudo rm /usr/share/applications/zb_launcher.*
 # Update the menu cache
 sudo update-desktop-database
 
-echo zBitx-toolbox applications and menu shortcuts have been successfully uninstalled."
+echo "zBitx-toolbox applications and menu shortcuts have been successfully uninstalled."
