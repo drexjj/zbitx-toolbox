@@ -28,8 +28,8 @@ chmod +x ./*.sh ./zb_launcher ./apps/*
 cd "$working_directory"
 
 # Create a desktop menu shortcut
-echo -e "[Desktop Entry]\nName=zBitx Toolbox\nExec=sh -c 'cd $working_directory && ./zb_launcher'\nType=Application\nIcon=/home/pi/sBITX-toolbox/icons/toolbox_icon.png\n" | sudo tee /usr/share/applications/zb_launcher.desktop > /dev/null
-echo -e "[Desktop Entry]\nName=zBitx Toolbox\nExec=sh -c 'cd $working_directory && ./zb_launcher'\nType=Application\nIcon=/home/pi/sBITX-toolbox/icons/toolbox_icon.png\n" | sudo tee /home/pi/Desktop/zb_launcher.desktop > /dev/null
+echo -e "[Desktop Entry]\nName=zBitx Toolbox\nExec=sh -c 'cd $working_directory && ./zb_launcher'\nType=Application\nIcon=/home/pi/zbitx-toolbox/icons/toolbox_icon.png\n" | sudo tee /usr/share/applications/zb_launcher.desktop > /dev/null
+echo -e "[Desktop Entry]\nName=zBitx Toolbox\nExec=sh -c 'cd $working_directory && ./zb_launcher'\nType=Application\nIcon=/home/pi/zbitx-toolbox/icons/toolbox_icon.png\n" | sudo tee /home/pi/Desktop/zb_launcher.desktop > /dev/null
 
 # Update the menu
 sudo update-desktop-database
