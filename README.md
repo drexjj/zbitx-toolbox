@@ -1,4 +1,4 @@
-# 📡 zBitx Toolbox
+zBitx Toolbox
 
 A collection of handy applications designed for the **zBitx transceiver line** by **HF Signals**.  
 Created and maintained by **JJ (W9JES)**. This is compatabile with the custom software and firmware located [Here](https://github.com/drexjj/zbitx)
