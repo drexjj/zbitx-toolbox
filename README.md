@@ -1,7 +1,7 @@
 # 📡 zBitx Toolbox
 
 A collection of handy applications designed for the **zBitx transceiver line** by **HF Signals**.  
-Created and maintained by **JJ (W9JES)**.
+Created and maintained by **JJ (W9JES)**. This is compatabile with the custom software and firmware located [Here](https://github.com/drexjj/zbitx)
 
 This toolbox provides a unified set of utilities to manage, control, and enhance your zBitx experience — from calibration and logging to full remote operation.
 
@@ -168,3 +168,16 @@ Closed source, copyrighted software. Please see my [License](https://github.com/
 
 - **HF Signals** for the zBitx platform  
 - The amateur radio community for testing and feedback  
+
+---
+
+## 🌟 Support the Project
+
+If you find these enhancements valuable or have benefited from using them, then please consider supporting my work. Every donation, big or small, helps us keep development going.
+
+💖 [**Donate Here**](https://www.paypal.com/donate/?hosted_button_id=SWPB76LVNUHEY) 💖
+
+Can't donate? No worries! Spreading the word also makes a big impact.
+
+Thank you for your support and belief in this project!
+
