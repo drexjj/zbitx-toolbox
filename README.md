@@ -162,7 +162,7 @@ sudo chmod +x ./install.sh
 
 ## 📜 License
 
-Closed source, copyrighted software. Please see my license for more information
+Closed source, copyrighted software. Please see my [License](https://github.com/drexjj/zbitx-toolbox/blob/main/LICENSE) for more information.
 
 ---
 
