@@ -5,6 +5,8 @@ Created and maintained by **JJ (W9JES)**. This is compatabile with the custom so
 
 This toolbox provides a unified set of utilities to manage, control, and enhance your zBitx experience — from calibration and logging to full remote operation.
 
+![toolbox image](zbtoolbox.png)
+
 ---
 
 ## 🚀 Features Overview
