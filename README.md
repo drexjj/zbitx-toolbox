@@ -75,8 +75,6 @@ Full-featured **remote control interface** for your zBitx.
   - AGC, audio, RF output  
   - F1–F12 macros  
 - Built-in **FT8-style decoder**:
-  - Highlights CQ calls  
-  - Click-to-reply functionality  
   - Save message logs  
 - Memory scanning with adjustable dwell time  
 - Dark and light (colorblind-friendly) themes  
