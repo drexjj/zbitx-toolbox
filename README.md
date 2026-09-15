@@ -1,26 +1,172 @@
-A collection of handy apps designed for the zBitx transceiver line by HF Signals. These apps were created by JJ, W9JES.
+# 📡 zBitx Toolbox
 
+A collection of handy applications designed for the **zBitx transceiver line** by **HF Signals**.  
+Created and maintained by **JJ (W9JES)**.
 
-Toolbox Launcher
-The central menu that ties everything together — a grid of buttons that launch the other tools and common system actions (start the zBITX app, open the log exporter, calibrate hardware, set the clock, run updates, power off, reboot). You add or remove buttons through menus, and it remembers your setup between sessions. It can also check for and install updates to the toolbox itself. Think of it as the home screen for the whole suite.
+This toolbox provides a unified set of utilities to manage, control, and enhance your zBitx experience — from calibration and logging to full remote operation.
 
-HW Calibrator
-Calibrates the transmit power output on each ham band, which matters because a single drive setting doesn't produce even power across the whole range from 80M up to 10M. It reads the radio's hardware settings file and shows a table of every transmit band with its frequency range and an editable scale value, so you can tune the power band by band and save it back to the radio. It also has buttons to start and stop the main zBitx application — the start opens a terminal window so you can watch the radio boot up. Handy whenever your output is too hot on some bands and too weak on others, or after a firmware change that resets your power settings.
+---
 
-Log Exporter
-Exports your logged contacts from the sBITX logbook into ADIF (.adi) files — the standard format for importing into logging programs like LoTW, QRZ, or Club Log. It shows your QSOs in a sortable, searchable table, lets you filter by a date range (with a calendar picker), and select which records to export. Before exporting it validates the records and warns you about problems (missing callsigns, bad dates, unusual modes) so you catch issues before they reach another program. This is the tool for getting your contacts out of the radio and into your permanent log or an awards program.
+## 🚀 Features Overview
 
-Macro Manager
-Creates and edits macro files (.mc) for the sBITX — the canned text and shortcuts you send during a QSO (like sending your callsign, a signal report, or an exchange). You pick macros from a dropdown that lists each one with a description, insert them into your text, and the editor highlights recognized macros in blue so you can see them at a glance. It handles the standard fields like {CALL}, {MYCALL}, {SENTRST}, and grid squares, plus the FT8 shortcut tokens. New, Open, Save, and Save As round it out. Good for anyone setting up their function-key macros for contesting or casual operating.
+### 🧰 Toolbox Launcher
+The **central hub** of the entire suite.
 
-Manager
-Remote-controls the radio over a network connection so you can operate it from a computer instead of the front panel. It stores your favorite frequencies as memories — each with its own mode, bandwidth, IF, and AGC — and tuning to any of them is a single click; a built-in editor lets you add, edit, reorder, and save them. Full menus give you direct control over frequency, mode, VFO, tuning step, RIT, split, waterfall span, AGC, audio, RF output, and F1–F12 macros. It decodes incoming FT8-style messages in a live window that highlights CQ calls, lets you click one to reply automatically, and can save the whole message log to a timestamped file. It can also scan through your memory channels automatically with an adjustable dwell time, and comes in dark or light (colorblind-friendly) themes. This is the tool for running the radio, managing memories, and working digital modes from your desk.
+- Grid-based launcher for all tools and system actions  
+- Start the zBitx app, run updates, export logs, calibrate hardware  
+- Add/remove buttons and persist layout between sessions  
+- Built-in toolbox self-update capability  
 
-Time Keeper
-Manages the clock, which matters because digital modes like FT8 need accurate time. It shows both the system clock (ticking live) and the hardware real-time clock, and lets you sync the hardware clock from the system clock, set the time by hand, or sync everything from the internet via NTP. Handy for field operation where the Pi may not have a network connection to set its own time automatically.
+> Think of this as the **home screen** for your zBitx utilities.
 
-Update Manager
-Handles keeping the Pi and the radio software current. Two buttons cover a standard system update-and-upgrade and updating the zBITX application itself. A live terminal pane on the right shows the output as commands run, so you can watch progress in real time, and a progress bar indicates when it's working. Useful for keeping the system patched without needing to drop to a command line.
+---
 
-USB Mode
-Switches what the radio's USB port does, which matters because the same physical port can either control the radio or accept a mouse and keyboard, but not both at once. CAT Mode turns the port into a virtual COM port plus audio interface so logging and digital-mode software can control the rig and pass audio (emulating an Icom IC-746, CI-V address 56, with USB Microphone in and Speaker SINK out); Mouse/Keyboard Mode lets you plug in input devices and use the radio as a standalone station. One button flips between them, it shows the current mode in color, and it reminds you that a reboot is required for the change to take effect. It can also be run from a script or terminal with --status, --cat, or --mouse. This is the tool for moving the radio between computer-controlled operation and standalone use.
+### ⚙️ HW Calibrator
+Fine-tune your transmit power across all bands.
+
+- Band-by-band transmit power calibration (80M → 10M)  
+- Editable scale values per band  
+- Reads/writes directly to hardware settings  
+- Start/stop the main zBitx application (with terminal output)  
+
+> Essential when output power is uneven or after firmware changes.
+
+---
+
+### 📓 Log Exporter
+Export your QSOs into industry-standard formats.
+
+- Export to **ADIF (.adi)** for:
+  - LoTW  
+  - QRZ  
+  - Club Log  
+- Searchable and sortable QSO table  
+- Date range filtering with calendar picker  
+- Record validation (callsigns, dates, modes)  
+
+> Cleanly move your contacts into logging software or award systems.
+
+---
+
+### 🧾 Macro Manager
+Create and manage macro files for operating.
+
+- Build and edit `.mc` macro files  
+- Dropdown macro selector with descriptions  
+- Syntax highlighting for recognized macros  
+- Supports:
+  - `{CALL}`, `{MYCALL}`, `{SENTRST}`, grid squares  
+  - FT8 shortcut tokens  
+- Standard file operations (New, Open, Save, Save As)  
+
+> Perfect for contesting or everyday QSOs.
+
+---
+
+### 🎛️ Manager
+Full-featured **remote control interface** for your zBitx.
+
+- Network-based radio control  
+- Memory system (frequency, mode, bandwidth, IF, AGC)  
+- One-click tuning to saved channels  
+- Full control over:
+  - Frequency, VFO, mode, tuning step  
+  - RIT, split, waterfall span  
+  - AGC, audio, RF output  
+  - F1–F12 macros  
+- Built-in **FT8-style decoder**:
+  - Highlights CQ calls  
+  - Click-to-reply functionality  
+  - Save message logs  
+- Memory scanning with adjustable dwell time  
+- Dark and light (colorblind-friendly) themes  
+
+> Your **desktop operating console** for zBitx.
+
+---
+
+### 🕒 Time Keeper
+Keep your radio’s time accurate.
+
+- Live system clock display  
+- Hardware RTC management  
+- Sync options:
+  - System → RTC  
+  - Manual time set  
+  - Internet (NTP) sync  
+
+> Critical for digital modes like **FT8**.
+
+---
+
+### 🔄 Update Manager
+Keep your system up to date without the command line.
+
+- System update & upgrade  
+- zBitx application updates  
+- Live terminal output view  
+- Progress bar for running tasks  
+
+> Simple, visual system maintenance.
+
+---
+
+### 🔌 USB Mode
+Switch the function of the USB port.
+
+- **CAT Mode**
+  - Virtual COM port + audio interface  
+  - Compatible with logging/digital software  
+  - Emulates **Icom IC-746** (CI-V address 56)  
+  - Audio devices:
+    - Input: *USB Microphone*  
+    - Output: *Speaker SINK*  
+
+- **Mouse/Keyboard Mode**
+  - Use USB input devices directly with the radio  
+
+- One-click switching  
+- Color-coded status indicator  
+- Requires reboot after change  
+- CLI support:
+  ```bash
+  --status
+  --cat
+  --mouse
+  ```
+
+> Easily switch between **computer-controlled** and **standalone operation**.
+
+---
+
+## 📦 Installation
+
+*(Add your install steps here — clone, script, image, etc.)*
+
+```bash
+git clone https://github.com/your-repo/zbitx-toolbox.git
+cd zbitx-toolbox
+sudo chmod +x ./install.sh
+./install.sh
+```
+
+---
+
+## 🧪 Status
+
+- Actively developed  
+- Designed for real-world use and field operation  
+- Feedback and bug reports are welcome  
+
+---
+
+## 📜 License
+
+Closed source, copyrighted software. Please see my license for more information
+
+---
+
+## 📡 Acknowledgments
+
+- **HF Signals** for the zBitx platform  
+- The amateur radio community for testing and feedback  
