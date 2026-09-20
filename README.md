@@ -174,7 +174,7 @@ Switch the function of the USB port.
 *(Add your install steps here — clone, script, image, etc.)*
 
 ```bash
-git clone https://github.com/your-repo/zbitx-toolbox.git
+git clone https://github.com/drexjj/zbitx-toolbox.git
 cd zbitx-toolbox
 sudo chmod +x ./install.sh
 ./install.sh
