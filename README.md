@@ -51,7 +51,7 @@ Fine-tune your transmit power across all bands.
 
 ---
 
-### 🔧 zBitx PA Autocal
+### 🔧 zBitx Autocal
 An automated calibration tool that optimizes transmit power on each band, pushing output to the highest usable level while avoiding distortion and overdriving the PA.
 
 - Manual **Connect / Disconnect** control of the local radio interface  
