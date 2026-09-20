@@ -176,8 +176,8 @@ Switch the function of the USB port.
 ```bash
 git clone https://github.com/drexjj/zbitx-toolbox.git
 cd zbitx-toolbox
-sudo chmod +x ./install.sh
-./install.sh
+sudo chmod +x ./installer.sh
+./installer.sh
 ```
 
 ---
