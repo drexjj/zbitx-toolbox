@@ -28,6 +28,17 @@ The **central hub** of the entire suite.
 
 ---
 
+### zBITX EZ Data Utility
+
+A simple backup and restore tool for your zBITX station data. EZ Data
+copies your `data` and `web` folders to a USB drive and restores them from any
+saved backup, so your logbook, macros, and settings survive a reflash, an SD
+card failure, or a move to new hardware.
+
+> Essential when migrating to a new SD card.
+
+---
+
 ### ⚙️ HW Calibrator
 Fine-tune your transmit power across all bands.
 
@@ -37,6 +48,20 @@ Fine-tune your transmit power across all bands.
 - Start/stop the main zBitx application (with terminal output)  
 
 > Essential when output power is uneven or after firmware changes.
+
+---
+
+### 🔧 zBitx PA Autocal
+An automated calibration tool that optimizes transmit power on each band, pushing output to the highest usable level while avoiding distortion and overdriving the PA.
+
+- Manual **Connect / Disconnect** control of the local radio interface  
+- **Required pre-flight safety checks** before calibration:
+  - ≥10 W dummy load connected  
+  - Batteries charged (if applicable)  
+  - Heatsink cooled (fan required on zBitx v1)  
+- **Audio-based monitoring** — CW sidetone is active during calibration and stops when complete (~6–10 minutes)  
+
+> Built to run directly on the radio’s desktop for quick, on-device calibration.
 
 ---
 
