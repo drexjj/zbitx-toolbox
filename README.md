@@ -171,10 +171,10 @@ Switch the function of the USB port.
 
 ## 📦 Installation
 
-*(Add your install steps here — clone, script, image, etc.)*
+Type this command directly in a terminal window on your zBitx and press enter after each line.
 
 ```bash
-git clone https://github.com/drexjj/zbitx-toolbox.git
+git clone https://github.com/drexjj/zbitx-toolbox
 cd zbitx-toolbox
 sudo chmod +x ./installer.sh
 ./installer.sh
