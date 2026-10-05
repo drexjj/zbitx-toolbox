@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 echo "Installing ezdata..."
 
 # Detect current user and home directory
