@@ -13,7 +13,7 @@ mkdir -p "$DESKTOP_DIR"
 
 # Download ezdata
 echo "Downloading ezdata..."
-wget -O "$DESKTOP_DIR/ezdata" https://raw.githubusercontent.com/drexjj/zbitx-toolbox/main/apps/ezdata
+wget -O "$DESKTOP_DIR/ezdata" https://github.com/drexjj/zbitx-toolbox/blob/main/apps/ezdata
 
 # Make executable
 chmod +x "$DESKTOP_DIR/ezdata"
